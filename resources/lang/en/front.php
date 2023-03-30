@@ -1,0 +1,48 @@
+<?php
+
+return [
+
+    'home' => 'Home',
+    "about"=>"About Us",
+    "contact_us"=>"Contact Us",
+    "blog"=>"Blogs",
+    "projects"=>"Projects",
+    "our_products"=>"Our Products",
+    "read_more"=>"Read More",
+    "request_now"=>"Request Now",
+    "who_we_are"=>'Who We Are?',
+    "more"=>"More",
+    "bio"=>"Bio",
+    "story"=>"Story",
+    "factory"=>"Factory",
+    "portfolio"=>"Portfolio",
+    "vision"=>"Vision",
+    "mission"=>"Mission",
+    "goal"=>"Goal",
+    "meet_the_team"=>"Meet The Team",
+    "our_team"=>'Our Team',
+    "partners"=>"Partners",
+    'ideas_come_truth'=>'Ideas Come Truth',
+    'end_more_is_coming'=>'End More Is Coming',
+    'about_factory'=>"About Factory",
+    'creativity_and_manufacturing'=>'Creativity And Manufacturing',
+    'all'=>'All',
+    'custom_order'=>'Custom Order',
+    'share'=>'Share',
+    'related_products'=>'Related Products',
+    'tags'=>"Tags",
+    'comments'=>'Comments',
+    'leave_a_replay'=>'Leave a Replay',
+    'submit'=>'Submit',
+    'email'=>'Email',
+    "phone"=>'Phone',
+    'Phone'=>'Your Phone',
+    'yname'=>'Your Name',
+    'sales'=>'Sales',
+    'contact_form'=>'Send',
+    'related_blogs'=>'Other Blogs',
+    'ymail'=>'Your Email Address',
+    "message"=>'Tell us about your project or idea'
+
+
+];

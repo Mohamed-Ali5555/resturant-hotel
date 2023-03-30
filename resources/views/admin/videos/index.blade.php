@@ -1,0 +1,71 @@
+@extends('layouts.index')
+@section('content')
+    <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <div class="content-header">
+            <div class="container-fluid">
+                <div class="row mb-2">
+                    <div class="col-sm-6">
+                        <h1 class="m-0">Video</h1>
+                    </div><!-- /.col -->
+                    <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="{{route('dashboard')}}">Home</a></li>
+                            <li class="breadcrumb-item active">Video</li>
+                        </ol>
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </div>
+        <!-- /.content-header -->
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="container-fluid">
+
+                <div class="card-header">
+                    <a href="{{route($route_pref.'.create')}}" class="btn btn-primary"><i class="fas fa-plus"></i> Add New </a>
+                </div>
+                <div class="card-body">
+                    <table id="example1" class="table datatable table-bordered table-striped">
+                        <thead>
+                        <tr>
+                            <th>image</th>
+
+                            <th>video</th>
+
+                            <th>Action</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        @foreach($rows as $row)
+                            <tr>
+                                <td>
+                                    <img width="70px" src="{{getfile($row['image'])}}">
+                                </td>
+                                <td>
+                                    <iframe src="  https://www.youtube.com/embed/{{getvidio_id($row['url'])}}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen  width="200px"></iframe>
+
+                                </td>
+
+
+
+
+                                <td>
+                                    @include('include.buttons')
+
+                                </td>
+                            </tr>
+
+                        @endforeach
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </section>
+
+    </div>
+@endsection
+
