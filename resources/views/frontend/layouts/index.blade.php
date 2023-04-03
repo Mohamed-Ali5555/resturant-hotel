@@ -59,7 +59,7 @@
 
             </ul>
         </div>
-        {{-- <div class="butn-light mt-30 mb-30"> <a href="{{route('check_rate')}}" style="color: white;"> <span>Check Rate</span></a></div> --}}
+        <div class="butn-light mt-30 mb-30"> <a href="{{route('check_rate')}}" style="color: white;"> <span> Booking</span></a></div>
     </div>
 
 </nav>

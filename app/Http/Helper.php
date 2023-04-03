@@ -364,6 +364,38 @@ function total_rate($stadium){
             "window-maximize" ,
             "window-minimize",
             "window-restore",
+
+//////////////////////////////////
+            "ambulance",
+            "h-square",
+            "heartbeat",
+            "medkit",
+            "prescription",
+            "stethoscope",
+            "user-md",
+            "wheelchair",
+            "blender",
+            "box-tissue",
+            "couch",
+            "door-closed",
+            "door-open",
+            "fan",
+            "dungeon",
+            "house-user",
+            "laptop-house",
+            "plug",
+            "pump-soap",
+            "soap",
+            "toilet-paper",
+            "tv",
+            "baby-carriage",
+            "briefcase",
+            "car","cocktail","concierge-bell","dice","dice-five","dumbbell"
+            ,"glass-martini","glass-martini-alt",
+            "hot-tub","hotel","infinity","key","luggage-cart",
+            "shuttle-van","smoking","smoking-ban","spa","suitcase","suitcase-rolling"
+            ,"swimmer","umbrella-beach","utensils",
+
     ];
   }
 function check_offer($id,$start_date,$end_date,$room_number,$night_number){
